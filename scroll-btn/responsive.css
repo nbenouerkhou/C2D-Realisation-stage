@@ -1,0 +1,11 @@
+@media (max-width: 767.98px) {
+#scrollBtn{
+    bottom:80px;
+    width:34px;
+    height:34px;
+    display: none !important;
+
+}
+
+}
+
