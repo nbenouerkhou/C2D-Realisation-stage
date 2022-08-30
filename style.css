@@ -1,0 +1,70 @@
+/******* About page design (10:30AM) *********/
+.page-about .innerpage--banner{
+    min-height:65vh;
+    background-size: 100%;
+  }
+  .page-about .site-header{
+    background:linear-gradient(180deg, #000000 0%, rgba(196, 196, 196, 0) 100%);
+  }
+  .aboutpageIntro-content{
+    margin-top: 47px;
+    margin-bottom: 150px;
+  }
+  .aboutpageIntro-content h1{
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 40px;
+    color: #005579;
+    margin-bottom: 34px;
+  }
+  .aboutpageIntro-content p{
+    font-family: 'robotolight';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: justify;
+    color: #005579;
+  }
+
+  .engagement h2{
+    color: #005579;
+    font-size: 24px;
+    margin:10px 0px 10px 0px;
+   
+  }
+  
+  
+  .card-body p{
+    font-family: 'robotolight';
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
+    color:#005579 ;
+    font-size: 18px;
+   
+  }
+  
+  
+  .notre-approche h2{
+    color: #005579;
+    text-align: center;
+    font-size: 24;
+    margin: 30px 0px 30px 0px;
+  }
+  
+  .notre-approche h3{
+    font-size: 22px;
+    color: #005579;
+  }
+  
+  .notre-approche p{
+    font-family: 'robotolight';
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
+    color:#005579 ;
+    font-size: 18px;
+  }

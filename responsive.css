@@ -1,0 +1,63 @@
+/**** Small devices (less than 768px)*****/
+@media (max-width: 767.98px) {
+    .aboutpageIntro-content h1{
+        font-size: 1.6em;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .aboutpageIntro-content p {
+        font-size: 16px;
+        line-height: 32px;
+      }
+    .aboutpageIntro-content{
+        margin-top: 25px;
+        margin-bottom: 60px;
+    }
+
+    .card-body p{
+        font-size: 14px;
+    }
+
+    .engagement h2{
+        font-size: 1.3em;
+    }
+    .notre-approche-mobile{
+       display: block;
+
+    }
+
+    .notre-approche-pc{
+        display: none;
+    }
+    
+    .notre-approche p{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .notre-approche h2{
+        font-size: 1.4em;
+    }
+    
+    .notre-approche h3{
+        font-size: 1.3em;
+    }
+    .pos-left{
+        width: 80%;
+    }
+
+
+    .pos-right{
+        float:right;
+        width:80%;
+        text-align: right;
+    }
+
+    
+    .pos-right p 
+    {
+        text-align: right;
+       
+       
+    }
+}
