@@ -1,0 +1,12 @@
+#footerTabs{
+    display:none;
+}
+
+
+@media (max-width: 767.98px) {
+    #footerTabs{
+        display: block;
+        display:flex !important;
+    }
+
+}
