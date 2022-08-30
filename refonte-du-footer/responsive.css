@@ -1,0 +1,17 @@
+@media (max-width: 767.98px) {
+footer{
+    background: #005579;
+    padding: 45px;
+    margin-top: -18px;
+
+}
+
+.footer-link{
+    margin-bottom: 10px;
+}
+
+.copyright{
+    margin-right: 10px;
+}
+
+}

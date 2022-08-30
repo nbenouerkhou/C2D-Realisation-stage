@@ -1,0 +1,29 @@
+/* footer */
+footer{
+    background: #005579;
+    padding: 45px;
+    margin-top: 48px; 
+  
+  }
+   
+  hr{
+    height: 1px;
+    border:none;
+    background-color: #FFFFFF;
+    opacity: 0.5;
+    width: 95% !important;
+    margin: auto !important;
+    margin-top: 20px !important;
+    
+  }
+  
+  .copyright{
+    float: right;
+    margin-top: 10px;
+    
+  }
+  
+  .copyright p{
+    color: #FFFFFF;
+  }
+  
