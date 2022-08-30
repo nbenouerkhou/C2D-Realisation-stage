@@ -1,0 +1,207 @@
+.btn-c2d-primary {
+    font-family: 'robotoregular';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    width:335px;
+    padding: 15px 0px;
+    background: #3EBDCC;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    
+  }
+  
+  .btn-c2d-primary:before {
+    content: '';
+    background: linear-gradient(35deg,#FFFFFF,#FFF4D1,#F5D471,#F5BF1D,#F4A41D,#EB8620,#F56B25,#EB8620,#F4A41D,#F5BF1D,#F5D471,#FFF4D1,#FFFFFF);
+    position: absolute; 
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  .btn-c2d-primary:hover{
+    background:#005579;
+  }
+  
+  .btn-c2d-primary:hover:before {
+    opacity: 1;
+  }
+  
+  .btn-c2d-primary:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:#3EBDCC;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
+  
+  @keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+  } 
+
+
+  .btn-c2d-primary-md{
+    font-family: 'robotoregular';
+    font-style: normal;
+    /* font-weight: bold; */
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #005579;
+    width:283px;
+    padding: 15px 0px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+  }
+  
+  .btn-c2d-primary-md:before{
+    content: '';
+    background: linear-gradient(35deg,#FFFFFF,#008FCC,#0081B8,#0074A6,#005579,#0074A6,#0081B8,#008FCC,#FFFFFF);
+    position: absolute; 
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  
+  .btn-c2d-primary-md:hover:before{
+    opacity:1;
+  }
+  
+  .btn-c2d-primary-md:after{
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:#ffffff;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
+  
+  @keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+  } 
+
+  /* boutton tous les services */
+
+.btn-c2d-primary-sm{
+    font-family: 'robotoregular';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 197px;
+    padding: 7px 0px;
+    background: #3EBDCC;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    
+  }
+  
+  .btn-c2d-primary-sm:hover{
+    background: #3EBDCC;
+   
+  } 
+  
+  
+  .box-btn{
+    font-family:'robotoregular';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #005579;
+    width: 335px;
+    background: #ffffff;
+    border-radius: 8px;
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+    text-decoration: none;
+    border: none;
+    outline : none;
+    cursor:pointer;
+    position: relative;
+    z-index:0;
+  }
+  
+  .box-btn:before{
+    content: '';
+    background: linear-gradient(35deg,#5f808f,#618696,#446b7c,#1e566e,#1c546d,#005579,#1c546d,#1e566e,#446b7c,#618696,#5f808f);
+    position: absolute; 
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  .box-btn:hover:before{
+    opacity:1;
+  }
+  
+  .box-btn:after{
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:#ffffff;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
+  
+  @keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+  } 
