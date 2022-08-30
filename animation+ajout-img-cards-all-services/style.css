@@ -1,0 +1,58 @@
+/* images tous les services */
+
+.img-service img{
+  width:100%;
+  height: 200px;
+  margin-bottom: 10PX;
+
+}
+
+/* title page all services */
+.service-title h2{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 40px;
+  margin-bottom:10px;
+}
+/* animation cards page all services */
+.service-lists-box .card:before {
+    content: '';
+    background: linear-gradient(35deg,#FFFFFF,#FFF4D1,#F5D471,#F5BF1D,#F4A41D,#EB8620,#F56B25,#EB8620,#F4A41D,#F5BF1D,#F5D471,#FFF4D1,#FFFFFF);
+    position: absolute; 
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  
+  .card:hover:before {
+    opacity: 1;
+  }
+  
+  .card:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:#3EBDCC;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
+  
+  @keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+  } 
+  
